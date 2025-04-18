@@ -19,7 +19,7 @@ locale                   : "en-CA"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Predictive Politics"
 title_separator          : " | "
-subtitle                 : "Canada's Most Amateur Election Forecasts"
+subtitle                 : "True north strong and statistically significant"
 name                     : "Donovan Capes"
 description              : "Yet another Canadian election forecast model. Combining historical, opinion pollings, and demographic data to shake the crystal ball."
 url                      : https://donovancapes.github.io
