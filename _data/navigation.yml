@@ -1,12 +1,47 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Home"
+    url: https://predictivepolitics.ca
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# Sidebar navigation
+docs:
+  - title: Federal Results
+    children:
+    - title: "Opinion Polling"
+      url: /docs/polls/
+    - title: "Seat Count"
+      url: /docs/seats/
+
+  - title: Province-level Forecasts
+    children:
+    - title: "British Columbia"
+      url: /docs/british_columbia/
+    - title: "Alberta"
+      url: /docs/alberta/
+    - title: "Prairies"
+      url: /docs/prairies/
+    - title: "Ontario"
+      url: /docs/ontario/
+    - title: "Québec"
+      url: /docs/quebec/
+    - title: "Maritimes"
+      url: /docs/maritimes/
+    - title: "Territories"
+      url: /docs/territories/
+
+  - title: About
+    children:
+    - title: "Methodology"
+      url: /docs/methodology/
+    - title: "The Author"
+      url: /docs/author/
+    - title: "Contact"
+      url: /docs/contact/
