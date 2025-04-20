@@ -22,8 +22,8 @@ title_separator          : " | "
 subtitle                 : "True north strong and statistically significant"
 name                     : "Donovan Capes"
 description              : "Yet another Canadian election forecast model. Combining historical, opinion pollings, and demographic data to shake the crystal ball."
-url                      : https://donovancapes.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : predictivepolitics.ca
+baseurl                  : ""
 repository               : DonovanCapes/donovancapes.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/predictive_politics_logo.PNG"
@@ -330,9 +330,5 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
       sidebar:
         nav: "docs"
