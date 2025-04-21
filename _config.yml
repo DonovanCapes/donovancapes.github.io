@@ -310,6 +310,11 @@ compress_html:
   ignore:
     envs: development
 
+# Enable collections 
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -332,3 +337,4 @@ defaults:
       layout: single
       sidebar:
         nav: "docs"
+  
