@@ -1,6 +1,6 @@
 ---
 title: "About the Author"
-permalink: /docs/author/
+permalink: /docs/11-author/
 layout: single
 sidebar:
   nav: "docs"

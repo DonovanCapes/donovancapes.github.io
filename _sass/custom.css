@@ -1,0 +1,38 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    
+    td, th {
+      padding: 0.5rem;
+      border-top: 1px solid #dee2e6;
+    }
+    
+    thead th {
+      border-bottom: 2px solid #dee2e6;
+      background-color: #f8f9fa;
+    }
+    
+    tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .table-sm {
+      td, th {
+        padding: 0.25rem;
+        border-top: none;
+      }
+    }
+  }
+  
+  /* Party color coding */
+  .party-BQ { color: #0088CE; }
+  .party-CPC { color: #002395; }
+  .party-GPC { color: #3D9B35; }
+  .party-LPC { color: #D71920; }
+  .party-NDP { color: #F37021; }
+  .party-PPC { color: #49176D; }

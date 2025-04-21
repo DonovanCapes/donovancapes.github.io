@@ -1,6 +1,6 @@
 ---
 title: "Seat Projections"
-permalink: /docs/seats/
+permalink: /docs/02-seats/
 layout: single
 sidebar:
   nav: "docs"

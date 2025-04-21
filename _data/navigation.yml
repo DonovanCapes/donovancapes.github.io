@@ -16,32 +16,32 @@ docs:
   - title: Federal Results
     children:
     - title: "Opinion Polling"
-      url: /docs/polls/
+      url: /docs/01-polls/
     - title: "Seat Count"
-      url: /docs/seats/
+      url: /docs/02-seats/
 
   - title: Province-level Forecasts
     children:
     - title: "British Columbia"
-      url: /docs/british_columbia/
+      url: /docs/03-british_columbia/
     - title: "Alberta"
-      url: /docs/alberta/
+      url: /docs/04-alberta/
     - title: "Prairies"
-      url: /docs/prairies/
+      url: /docs/05-prairies/
     - title: "Ontario"
-      url: /docs/ontario/
+      url: /docs/06-ontario/
     - title: "Québec"
-      url: /docs/quebec/
+      url: /docs/07-quebec/
     - title: "Maritimes"
-      url: /docs/maritimes/
+      url: /docs/08-maritimes/
     - title: "Territories"
-      url: /docs/territories/
+      url: /docs/09-territories/
 
   - title: About
     children:
     - title: "Methodology"
-      url: /docs/methodology/
+      url: /docs/10-methodology/
     - title: "The Author"
-      url: /docs/author/
+      url: /docs/11-author/
     - title: "Contact"
-      url: /docs/contact/
+      url: /docs/12-contact/

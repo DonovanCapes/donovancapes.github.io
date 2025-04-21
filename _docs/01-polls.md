@@ -1,6 +1,6 @@
 ---
 title: "Opinion Polling"
-permalink: /docs/polls/
+permalink: /docs/01-polls/
 layout: single
 sidebar:
   nav: "docs"
