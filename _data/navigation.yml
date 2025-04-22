@@ -23,7 +23,7 @@ docs:
   - title: Province-level Forecasts
     children:
     - title: "British Columbia"
-      url: /docs/03-british_columbia/
+      url: /docs/03-british-columbia/
     - title: "Alberta"
       url: /docs/04-alberta/
     - title: "Prairies"
@@ -36,7 +36,8 @@ docs:
       url: /docs/08-maritimes/
     - title: "Territories"
       url: /docs/09-territories/
-
+    - title: "Test Data"
+      url: /docs/data-test/
   - title: About
     children:
     - title: "Methodology"
