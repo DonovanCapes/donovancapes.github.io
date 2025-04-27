@@ -36,8 +36,7 @@ docs:
       url: /docs/08-maritimes/
     - title: "Territories"
       url: /docs/09-territories/
-    - title: "Test Data"
-      url: /docs/data-test/
+
   - title: About
     children:
     - title: "Methodology"
