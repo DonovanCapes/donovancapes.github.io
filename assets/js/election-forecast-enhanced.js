@@ -211,7 +211,7 @@ const ElectionForecast = {
         const districtCell = document.createElement('td');
         districtCell.className = `${prefix}-district-cell`;
         districtCell.innerHTML = `
-          <div class="${prefix}-district-name">${district.districtname}</div>
+          <div class="${prefix}-district-name">${this._fixEncoding(district.districtname)}</div>
           <div class="${prefix}-district-id">${district.districtid}</div>
         `;
         
@@ -256,7 +256,22 @@ const ElectionForecast = {
       // Add table to wrapper
       tableWrapper.appendChild(table);
     },
-  
+    // Add this helper method
+    _fixEncoding: function(text) {
+      if (!text) return '';
+      
+      // Replace common problematic characters
+      return text
+        .replace(/�/g, 'é')
+        .replace(/Ã©/g, 'é')
+        .replace(/Ã¨/g, 'è')
+        .replace(/Ã¢/g, 'â') 
+        .replace(/Ãª/g, 'ê')
+        .replace(/Ã®/g, 'î')
+        .replace(/Ã´/g, 'ô')
+        .replace(/Ã»/g, 'û')
+        .replace(/Ã§/g, 'ç');
+    },
     // Add the CSS needed for the tables
     _addStyles: function() {
       const prefix = this.config.cssPrefix;
