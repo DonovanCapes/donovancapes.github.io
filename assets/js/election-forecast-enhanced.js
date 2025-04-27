@@ -19,10 +19,10 @@ const ElectionForecast = {
   
     // Party information
     parties: {
-      'lpc': { name: 'Liberal', color: '#d71920' },
-      'cpc': { name: 'Conservative', color: '#1a4782' },
-      'ndp': { name: 'New Democrat', color: '#f37021' },
-      'bq': { name: 'Bloc Québécois', color: '#33b2cc' },
+      'lpc': { name: 'LPC', color: '#d71920' },
+      'cpc': { name: 'CPC', color: '#1a4782' },
+      'ndp': { name: 'NDP', color: '#f37021' },
+      'bq': { name: 'Bloc', color: '#33b2cc' },
       'gpc': { name: 'Green', color: '#39b54a' },
       'ppc': { name: 'People\'s Party', color: '#8b4513' },
       'other': { name: 'Other', color: '#999999' }
