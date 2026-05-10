@@ -6,4 +6,8 @@ sidebar:
   nav: "docs"
 ---
 
-Potentially contact information
+The best way to get in touch or report an issue is via GitHub:
+
+[github.com/DonovanCapes](https://github.com/DonovanCapes)
+
+If you have a question about the model or methodology, the [Methodology](/docs/10-methodology/) and [Opinion Polling](/docs/01-polls/) pages may already have the answer.

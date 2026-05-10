@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(geojson|json\\)$\")",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
